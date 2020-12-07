@@ -7,7 +7,7 @@ import (
 
 	"github.com/alecthomas/kingpin"
 
-	"github.com/xo/usql/text"
+	"github.com/eucalytus/usql/text"
 )
 
 // CommandOrFile is a special type to deal with interspersed -c, -f,

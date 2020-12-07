@@ -6,5 +6,5 @@ package internal
 
 import (
 	// moderncsqlite driver
-	_ "github.com/xo/usql/drivers/moderncsqlite"
+	_ "github.com/eucalytus/usql/drivers/moderncsqlite"
 )

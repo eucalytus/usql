@@ -15,7 +15,7 @@ import (
 	"github.com/gocql/gocql"
 	"github.com/xo/dburl"
 
-	"github.com/xo/usql/drivers"
+	"github.com/eucalytus/usql/drivers"
 )
 
 // logger is a null logger that satisfies the gocql.StdLogger and the io.Writer

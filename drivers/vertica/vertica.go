@@ -9,7 +9,7 @@ import (
 	_ "github.com/vertica/vertica-sql-go"
 
 	"github.com/vertica/vertica-sql-go/logger"
-	"github.com/xo/usql/drivers"
+	"github.com/eucalytus/usql/drivers"
 )
 
 func init() {

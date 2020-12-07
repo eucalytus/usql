@@ -5,7 +5,7 @@ import (
 
 	"github.com/xo/dburl"
 
-	"github.com/xo/usql/drivers"
+	"github.com/eucalytus/usql/drivers"
 )
 
 func init() {

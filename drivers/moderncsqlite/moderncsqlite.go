@@ -9,7 +9,7 @@ import (
 	"modernc.org/sqlite"
 
 	"github.com/xo/dburl"
-	"github.com/xo/usql/drivers"
+	"github.com/eucalytus/usql/drivers"
 	"github.com/xo/xoutil"
 )
 

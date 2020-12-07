@@ -8,7 +8,7 @@ import (
 
 	"github.com/amsokol/ignite-go-client/binary/errors"
 
-	"github.com/xo/usql/drivers"
+	"github.com/eucalytus/usql/drivers"
 )
 
 func init() {

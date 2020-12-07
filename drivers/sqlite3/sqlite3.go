@@ -7,7 +7,7 @@ import (
 	// DRIVER: sqlite3
 	"github.com/mattn/go-sqlite3"
 
-	"github.com/xo/usql/drivers"
+	"github.com/eucalytus/usql/drivers"
 	"github.com/xo/xoutil"
 )
 

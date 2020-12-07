@@ -6,5 +6,5 @@ package internal
 
 import (
 	// ignite driver
-	_ "github.com/xo/usql/drivers/ignite"
+	_ "github.com/eucalytus/usql/drivers/ignite"
 )

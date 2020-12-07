@@ -1,10 +1,10 @@
-# usql [![Build Status][travis-ci]](https://travis-ci.org/xo/usql)
+# usql [![Build Status][travis-ci]](https://travis-ci.org/eucalytus/usql)
 
 A universal command-line interface for PostgreSQL, MySQL, Oracle Database,
 SQLite3, Microsoft SQL Server, [and many other databases][Database Support]
 including NoSQL and non-relational databases!
 
-[travis-ci]: https://travis-ci.org/xo/usql.svg?branch=master "Travis CI"
+[travis-ci]: https://travis-ci.org/eucalytus/usql.svg?branch=master "Travis CI"
 
 [Installing][] | [Building][] | [Using][] | [Database Support][] | [Features and Compatibility][] | [Releases][]
 
@@ -13,7 +13,7 @@ including NoSQL and non-relational databases!
 [Using]: #using (Using)
 [Database Support]: #database-support (Database Support)
 [Features and Compatibility]: #features-and-compatibility (Features and Compatibility)
-[Releases]: https://github.com/xo/usql/releases (Releases)
+[Releases]: https://github.com/eucalytus/usql/releases (Releases)
 
 ## Overview
 
@@ -95,17 +95,17 @@ scoop install usql
 
 ```sh
 # install usql with basic database support (includes PosgreSQL, MySQL, SQLite3, and MS SQL drivers)
-$ GO111MODULE=on go get -u github.com/xo/usql
+$ GO111MODULE=on go get -u github.com/eucalytus/usql
 ```
 
 Support for additional databases can be specified with [build tags][Database Support]:
 
 ```sh
 # install usql with most drivers (excludes drivers requiring CGO)
-$ GO111MODULE=on go get -u -tags most github.com/xo/usql
+$ GO111MODULE=on go get -u -tags most github.com/eucalytus/usql
 
 # install usql with all drivers (includes drivers requiring CGO, namely Oracle and ODBC drivers)
-$ GO111MODULE=on go get -u -tags all github.com/xo/usql
+$ GO111MODULE=on go get -u -tags all github.com/eucalytus/usql
 ```
 
 ## Building
@@ -118,13 +118,13 @@ drivers, respectively:
 
 ```sh
 # install all drivers
-$ GO111MODULE=on go get -u -tags all github.com/xo/usql
+$ GO111MODULE=on go get -u -tags all github.com/eucalytus/usql
 
 # install with most drivers (same as all but excludes Oracle/ODBC)
-$ GO111MODULE=on go get -u -tags most github.com/xo/usql
+$ GO111MODULE=on go get -u -tags most github.com/eucalytus/usql
 
 # install with base drivers and Oracle/ODBC support
-$ GO111MODULE=on go get -u -tags 'oracle odbc' github.com/xo/usql
+$ GO111MODULE=on go get -u -tags 'oracle odbc' github.com/eucalytus/usql
 ```
 
 For every build tag `<driver>`, there is also the `no_<driver>` build tag
@@ -132,7 +132,7 @@ disabling the driver:
 
 ```sh
 # install all drivers excluding avatica and couchbase
-$ GO111MODULE=on go get -u -tags 'all no_avatica no_couchbase' github.com/xo/usql
+$ GO111MODULE=on go get -u -tags 'all no_avatica no_couchbase' github.com/eucalytus/usql
 ```
 
 ### Release Builds
@@ -160,7 +160,7 @@ The list of drivers that `usql` was built with can be displayed using the
 [`\drivers` command][commands]:
 
 ```sh
-$ cd $GOPATH/src/github.com/xo/usql
+$ cd $GOPATH/src/github.com/eucalytus/usql
 $ export GO111MODULE=on
 $ go build -tags 'no_most postgres mysql cql sqlite3' && ./usql
 Type "help" for help.
@@ -875,7 +875,7 @@ support for the most frequently used aspects/features of `psql`. Compatability
 
 [dburl]: https://github.com/xo/dburl
 [dburl-schemes]: https://github.com/xo/dburl#protocol-schemes-and-aliases
-[godoc]: https://godoc.org/github.com/xo/usql
+[godoc]: https://godoc.org/github.com/eucalytus/usql
 [go-project]: https://golang.org/project
 [go-time]: https://golang.org/pkg/time/#pkg-constants
 [go-sql]: https://golang.org/pkg/database/sql/

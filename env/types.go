@@ -8,7 +8,7 @@ import (
 	"unicode"
 
 	"github.com/xo/terminfo"
-	"github.com/xo/usql/text"
+	"github.com/eucalytus/usql/text"
 )
 
 // Vars is a map of variables.

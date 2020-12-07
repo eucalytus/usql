@@ -6,5 +6,5 @@ package internal
 
 import (
 	// sapase driver
-	_ "github.com/xo/usql/drivers/sapase"
+	_ "github.com/eucalytus/usql/drivers/sapase"
 )

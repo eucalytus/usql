@@ -8,7 +8,7 @@ import (
 
 	avaticaerrors "github.com/apache/calcite-avatica-go/v5/errors"
 
-	"github.com/xo/usql/drivers"
+	"github.com/eucalytus/usql/drivers"
 )
 
 func init() {

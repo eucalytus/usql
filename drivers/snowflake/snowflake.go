@@ -6,7 +6,7 @@ import (
 	// DRIVER: snowflake
 	"github.com/snowflakedb/gosnowflake"
 
-	"github.com/xo/usql/drivers"
+	"github.com/eucalytus/usql/drivers"
 )
 
 func init() {

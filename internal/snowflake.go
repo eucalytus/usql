@@ -6,5 +6,5 @@ package internal
 
 import (
 	// snowflake driver
-	_ "github.com/xo/usql/drivers/snowflake"
+	_ "github.com/eucalytus/usql/drivers/snowflake"
 )

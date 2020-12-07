@@ -34,6 +34,6 @@ $ sudo chown -R 54321:54321 /media/src/opt/oracle
 6. Start:
 
 ```sh
-$ cd $GOPATH/src/github.com/xo/usql/contrib
+$ cd $GOPATH/src/github.com/eucalytus/usql/contrib
 $ ./docker-run.sh oracle
 ```

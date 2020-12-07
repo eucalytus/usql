@@ -6,5 +6,5 @@ package internal
 
 import (
 	// vertica driver
-	_ "github.com/xo/usql/drivers/vertica"
+	_ "github.com/eucalytus/usql/drivers/vertica"
 )

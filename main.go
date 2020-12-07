@@ -9,12 +9,12 @@ import (
 	"os/user"
 	"strings"
 
-	"github.com/xo/usql/drivers"
-	"github.com/xo/usql/env"
-	"github.com/xo/usql/handler"
-	"github.com/xo/usql/internal"
-	"github.com/xo/usql/rline"
-	"github.com/xo/usql/text"
+	"github.com/eucalytus/usql/drivers"
+	"github.com/eucalytus/usql/env"
+	"github.com/eucalytus/usql/handler"
+	"github.com/eucalytus/usql/internal"
+	"github.com/eucalytus/usql/rline"
+	"github.com/eucalytus/usql/text"
 )
 
 func main() {
@@ -65,7 +65,7 @@ func main() {
 			if t, ok := m[tag]; ok {
 				tag = t
 			}
-			fmt.Fprintf(os.Stderr, "\ntry:\n\n  go get -u -tags %s github.com/xo/usql\n\n", tag)
+			fmt.Fprintf(os.Stderr, "\ntry:\n\n  go get -u -tags %s github.com/eucalytus/usql\n\n", tag)
 		}
 
 		os.Exit(1)

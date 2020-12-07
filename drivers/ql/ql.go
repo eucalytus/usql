@@ -4,7 +4,7 @@ import (
 	// DRIVER: ql
 	"modernc.org/ql"
 
-	"github.com/xo/usql/drivers"
+	"github.com/eucalytus/usql/drivers"
 )
 
 func init() {

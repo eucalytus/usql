@@ -17,7 +17,7 @@ import (
 	"github.com/xo/dburl"
 	"github.com/zaf/temp"
 
-	"github.com/xo/usql/text"
+	"github.com/eucalytus/usql/text"
 )
 
 // Getenv tries retrieving successive keys from os environment variables.

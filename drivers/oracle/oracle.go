@@ -11,8 +11,8 @@ import (
 	"golang.org/x/xerrors"
 
 	"github.com/xo/dburl"
-	"github.com/xo/usql/drivers"
-	"github.com/xo/usql/env"
+	"github.com/eucalytus/usql/drivers"
+	"github.com/eucalytus/usql/env"
 )
 
 func init() {

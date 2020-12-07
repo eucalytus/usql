@@ -9,7 +9,7 @@ import (
 	// DRIVER: tds
 	"github.com/thda/tds"
 
-	"github.com/xo/usql/drivers"
+	"github.com/eucalytus/usql/drivers"
 )
 
 func init() {

@@ -7,7 +7,7 @@ import (
 	// DRIVER: mssql
 	"github.com/denisenkom/go-mssqldb"
 
-	"github.com/xo/usql/drivers"
+	"github.com/eucalytus/usql/drivers"
 )
 
 func init() {

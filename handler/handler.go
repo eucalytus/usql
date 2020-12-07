@@ -20,13 +20,13 @@ import (
 	"github.com/xo/dburl"
 	"github.com/xo/tblfmt"
 
-	"github.com/xo/usql/drivers"
-	"github.com/xo/usql/env"
-	"github.com/xo/usql/metacmd"
-	"github.com/xo/usql/rline"
-	"github.com/xo/usql/stmt"
-	ustyles "github.com/xo/usql/styles"
-	"github.com/xo/usql/text"
+	"github.com/eucalytus/usql/drivers"
+	"github.com/eucalytus/usql/env"
+	"github.com/eucalytus/usql/metacmd"
+	"github.com/eucalytus/usql/rline"
+	"github.com/eucalytus/usql/stmt"
+	ustyles "github.com/eucalytus/usql/styles"
+	"github.com/eucalytus/usql/text"
 )
 
 // Handler is a input process handler.
