@@ -1,4 +1,4 @@
-module github.com/github.com/eucalytus/usql
+module github.com/eucalytus/usql
 
 require (
 	github.com/ClickHouse/clickhouse-go v1.4.3
