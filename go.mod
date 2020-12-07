@@ -1,4 +1,4 @@
-module github.com/xo/usql
+module github.com/eucalytus/usql
 
 require (
 	github.com/ClickHouse/clickhouse-go v1.4.3
@@ -75,4 +75,4 @@ require (
 
 go 1.15
 
-replace github.com/xo/usql => github.com/eucalytus/usql v0.9.0
+replace github.com/xo/usql => github.com/eucalytus/usql latest
