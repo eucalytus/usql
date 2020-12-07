@@ -75,4 +75,4 @@ require (
 
 go 1.15
 
-replace github.com/xo/usql => github.com/eucalytus/usql v0.8.1
+replace github.com/xo/usql => github.com/eucalytus/usql v0.9.0
